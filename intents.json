@@ -1,0 +1,41 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey", "What can I do for you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "bye", "caw", "see ya"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye"]
+      },
+      {
+        "tag": "age",
+        "patterns": ["how old", "how old is Florian", "what is your age", "how old are you", "age?"],
+        "responses": ["My owner Florian is 21 years old!", "21 years!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "What should I call you?", "Your name?"],
+        "responses": ["You can call me ChatGPT."]
+      },
+      {
+        "tag": "shop",
+        "patterns": ["Tell me about your shop", "What kind of shop is this?", "Shop details"],
+        "responses": ["This is a virtual assistant chatbot. We don't have a physical shop."]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What are your operating hours?", "When are you available?", "Working hours"],
+        "responses": ["I'm available 24/7 to assist you."]
+      },
+      {
+        "tag": "stocks",
+        "patterns": ["Tell me about stocks", "What can you tell me about stock market?", "Stocks information"],
+        "responses": ["I can provide you with information about stocks and the stock market. Please specify the stock or company you're interested in."]
+      }
+    ]
+  }
+  
+  
