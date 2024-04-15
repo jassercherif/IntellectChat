@@ -45,7 +45,7 @@ def get_response(intents_list, intents_json):
             result = random.choice(i['responses'])
             break
     return result
-print("GO! Bot is Running!")
+print("GO! Bot is Running!") #Wow the bot is running well
 while True:
     message = input("")
     ints = predict_class(message)
