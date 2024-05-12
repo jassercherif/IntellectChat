@@ -22,7 +22,7 @@ ignore_letters = ['?', '!', '.', ',']
 
 for intent in intents['intents']:
     for pattern in intent['patterns']:
-        word_list = word_tokenize(pattern)  # Change nltk.word_tokenise to nltk.word_tokenize
+        word_list = word_tokenize(pattern)  # Change nltk.word_tokenise to nltk.word_tokenize 
         words.extend(word_list)
         documents.append((word_list, intent['tag']))
         if intent['tag'] not in classes:
